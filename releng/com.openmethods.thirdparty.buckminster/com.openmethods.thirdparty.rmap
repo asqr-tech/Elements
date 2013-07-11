@@ -30,8 +30,19 @@
   		<rm:property key="git.auto.fetch" value="true"/>
   	</rm:provider>
   </rm:searchPath>
+  <rm:searchPath name="Elements-javax">
+  	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="git" resolutionFilter="">
+  		<rm:uri format="{0}/elements,javax/{1}">
+  			<bc:propertyRef key="workspace.root"/>
+  			<bc:propertyRef key="buckminster.component"/>
+  		</rm:uri>
+  		<rm:property key="git.remote.uri" value="https://github.com/OpenMethods/Elements.git"/>
+  		<rm:property key="git.auto.fetch" value="true"/>
+  	</rm:provider>
+  </rm:searchPath>
   <rm:locator searchPathRef="orbit-R20130517111416" failOnError="false"/>
   <rm:locator searchPathRef="legacy-thirdparty" failOnError="false"/>
   <rm:locator searchPathRef="Elements-Releng" failOnError="false"/>
   <rm:locator searchPathRef="Elements-org.slf4j" failOnError="false"/>
+  <rm:locator searchPathRef="Elements-javax" failOnError="false"/>
 </rm:rmap>
