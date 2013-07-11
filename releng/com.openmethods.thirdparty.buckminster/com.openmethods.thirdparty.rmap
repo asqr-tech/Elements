@@ -10,6 +10,17 @@
       <rm:uri format="http://localhost:8081/repositories/legacy-thirdparty"/>
     </rm:provider>
   </rm:searchPath>
+  <rm:searchPath name="Elements-Releng">
+  	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="git" resolutionFilter="">
+  		<rm:uri format="{0}/elements,releng/{1}">
+  			<bc:propertyRef key="workspace.root"/>
+  			<bc:propertyRef key="buckminster.component"/>
+  		</rm:uri>
+  		<rm:property key="git.remote.uri" value="https://github.com/OpenMethods/Elements.git"/>
+  		<rm:property key="git.auto.fetch" value="true"/>
+  	</rm:provider>
+  </rm:searchPath>
   <rm:locator searchPathRef="orbit-R20130118183705" failOnError="false"/>
   <rm:locator searchPathRef="legacy-thirdparty" failOnError="false"/>
+  <rm:locator searchPathRef="Elements-Releng" failOnError="false"/>
 </rm:rmap>
