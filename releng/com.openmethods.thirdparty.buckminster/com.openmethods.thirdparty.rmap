@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rm:rmap xmlns:bc="http://www.eclipse.org/buckminster/Common-1.0" xmlns:rm="http://www.eclipse.org/buckminster/RMap-1.0">
+  <rm:searchPath name="orbit-R20130118183705">
+    <rm:provider readerType="p2" componentTypes="osgi.bundle" mutable="false" source="false">
+      <rm:uri format="http://download.eclipse.org/tools/orbit/downloads/drops/R20130118183705/repository/"/>
+    </rm:provider>
+  </rm:searchPath>
+  <rm:searchPath name="legacy-thirdparty">
+    <rm:provider readerType="p2" componentTypes="osgi.bundle" mutable="false" source="false">
+      <rm:uri format="http://localhost:8081/repositories/legacy-thirdparty"/>
+    </rm:provider>
+  </rm:searchPath>
+  <rm:locator searchPathRef="orbit-R20130118183705" failOnError="false"/>
+  <rm:locator searchPathRef="legacy-thirdparty" failOnError="false"/>
+</rm:rmap>
