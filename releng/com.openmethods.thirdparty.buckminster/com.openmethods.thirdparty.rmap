@@ -5,11 +5,11 @@
       <rm:uri format="http://download.eclipse.org/tools/orbit/downloads/drops/R20130517111416/repository/"/>
     </rm:provider>
   </rm:searchPath>
-  <rm:searchPath name="legacy-thirdparty">
+<!-- <rm:searchPath name="legacy-thirdparty">
     <rm:provider readerType="p2" componentTypes="osgi.bundle" mutable="false" source="false">
       <rm:uri format="http://localhost:8081/repositories/legacy-thirdparty"/>
     </rm:provider>
-  </rm:searchPath>
+  </rm:searchPath> -->
   <rm:searchPath name="Elements-Releng">
   	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="git" resolutionFilter="">
   		<rm:uri format="{0}/elements,releng/{1}">
@@ -67,7 +67,7 @@
   	</rm:provider>
   </rm:searchPath>
   <rm:locator searchPathRef="orbit-R20130517111416" failOnError="false"/>
-  <rm:locator searchPathRef="legacy-thirdparty" failOnError="false"/>
+<!-- <rm:locator searchPathRef="legacy-thirdparty" failOnError="false"/> -->
   <rm:locator searchPathRef="Elements-Releng" failOnError="false"/>
   <rm:locator searchPathRef="Elements-org.slf4j" failOnError="false"/>
   <rm:locator searchPathRef="Elements-javax" failOnError="false"/>
