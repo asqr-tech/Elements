@@ -33,7 +33,7 @@
   </rm:searchPath>
   <rm:searchPath name="Elements-javax">
   	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="git" resolutionFilter="">
-  		<rm:uri format="{0}/elements,javax/{1}_{2}">
+  		<rm:uri format="{0}/elements,javax/plugins/{1}_{2}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   			<bc:propertyRef key="buckminster.version.designator"/>
