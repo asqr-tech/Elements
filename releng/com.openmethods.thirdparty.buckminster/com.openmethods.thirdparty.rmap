@@ -27,11 +27,15 @@
   			<bc:propertyRef key="buckminster.component"/>
   			<bc:format format="{0}">
   				<bc:split pattern=",">
-	  				<bc:replace>
-	  					<bc:propertyRef key="buckminster.version.designator"/>
-	  					<bc:match pattern="\[" replacement=""/>
-	  					<bc:match pattern="\]" replacement=""/>
-	  				</bc:replace>
+  					<bc:format format="{0}">
+		  				<bc:split pattern="\]">
+		  					<bc:format format="{1}">
+		  						<bc:split pattern="\[">
+		  							<bc:propertyRef key="buckminster.version.designator"/>
+		  						</bc:split>
+		  					</bc:format>
+		  				</bc:split>
+	  				</bc:format>
 	  			</bc:split>
   			</bc:format>
   		</rm:uri>
@@ -46,11 +50,15 @@
   			<bc:propertyRef key="buckminster.component"/>
   			<bc:format format="{0}">
   				<bc:split pattern=",">
-	  				<bc:replace>
-	  					<bc:propertyRef key="buckminster.version.designator"/>
-	  					<bc:match pattern="\[" replacement=""/>
-	  					<bc:match pattern="\]" replacement=""/>
-	  				</bc:replace>
+  					<bc:format format="{0}">
+		  				<bc:split pattern="\]">
+		  					<bc:format format="{1}">
+		  						<bc:split pattern="\[">
+		  							<bc:propertyRef key="buckminster.version.designator"/>
+		  						</bc:split>
+		  					</bc:format>
+		  				</bc:split>
+	  				</bc:format>
 	  			</bc:split>
   			</bc:format>
   		</rm:uri>
