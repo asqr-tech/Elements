@@ -29,7 +29,7 @@
   				<bc:split pattern=",">
   					<bc:format format="{0}">
 		  				<bc:split pattern="\]">
-		  					<bc:format format="{1}">
+		  					<bc:format format="{0}">
 		  						<bc:split pattern="\[">
 		  							<bc:propertyRef key="buckminster.version.designator"/>
 		  						</bc:split>
@@ -52,7 +52,7 @@
   				<bc:split pattern=",">
   					<bc:format format="{0}">
 		  				<bc:split pattern="\]">
-		  					<bc:format format="{1}">
+		  					<bc:format format="{0}">
 		  						<bc:split pattern="\[">
 		  							<bc:propertyRef key="buckminster.version.designator"/>
 		  						</bc:split>
