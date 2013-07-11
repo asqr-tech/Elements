@@ -22,9 +22,10 @@
   </rm:searchPath>
   <rm:searchPath name="Elements-org.slf4j">
   	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="git" resolutionFilter="">
-  		<rm:uri format="{0}/elements,org.slf4j/{1}">
+  		<rm:uri format="{0}/elements,org.slf4j/{1}_{2}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
+  			<bc:propertyRef key="buckminster.version.designator"/>
   		</rm:uri>
   		<rm:property key="git.remote.uri" value="https://github.com/OpenMethods/Elements.git"/>
   		<rm:property key="git.auto.fetch" value="true"/>
@@ -32,9 +33,10 @@
   </rm:searchPath>
   <rm:searchPath name="Elements-javax">
   	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="git" resolutionFilter="">
-  		<rm:uri format="{0}/elements,javax/{1}">
+  		<rm:uri format="{0}/elements,javax/{1}_{2}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
+  			<bc:propertyRef key="buckminster.version.designator"/>
   		</rm:uri>
   		<rm:property key="git.remote.uri" value="https://github.com/OpenMethods/Elements.git"/>
   		<rm:property key="git.auto.fetch" value="true"/>
