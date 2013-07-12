@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons JEXL
+Bundle-SymbolicName: org.apache.commons.jexl
+Bundle-Version: 2.1.1
+Bundle-ClassPath: org.apache.commons.jexl_2.1.1.jar
+Bundle-Vendor: Apache Foundation (packaged by OpenMethods)
+Export-Package: org.apache.commons.jexl2,
+ org.apache.commons.jexl2.internal,
+ org.apache.commons.jexl2.internal.introspection,
+ org.apache.commons.jexl2.introspection,
+ org.apache.commons.jexl2.parser,
+ org.apache.commons.jexl2.scripting
+Require-Bundle: org.apache.commons.logging,
+ org.eclipse.birt.chart.engine;resolution:=optional
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
