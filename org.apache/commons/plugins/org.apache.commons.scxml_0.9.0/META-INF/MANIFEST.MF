@@ -15,7 +15,7 @@ Export-Package: org.apache.commons.scxml,
  org.apache.commons.scxml.semantics,
  org.apache.commons.scxml.test
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Require-Bundle: org.apache.commons.beanutils;bundle-version="1.8.1",
+Require-Bundle: org.apache.commons.beanutils;bundle-version="1.8.0",
  org.apache.commons.jexl;bundle-version="1.1.0",
  org.apache.commons.logging;bundle-version="1.1.1",
  org.apache.xalan;bundle-version="2.7.0"
