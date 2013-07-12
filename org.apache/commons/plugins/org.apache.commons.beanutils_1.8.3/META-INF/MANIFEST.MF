@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons BeanUtils
+Bundle-SymbolicName: org.apache.commons.beanutils
+Bundle-Version: 1.8.3
+Bundle-ClassPath: commons-beanutils-1.8.3.jar
+Bundle-Vendor: Apache Foundation (packaged by OpenMethods)
+Export-Package: org.apache.commons.beanutils,
+ org.apache.commons.beanutils.converters,
+ org.apache.commons.beanutils.expression,
+ org.apache.commons.beanutils.locale,
+ org.apache.commons.beanutils.locale.converters
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.apache.commons.logging,
+ org.apache.commons.collections
+ 
