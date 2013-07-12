@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons Digester
+Bundle-SymbolicName: org.apache.commons.digester
+Bundle-Version: 3.2.0
+Bundle-ClassPath: org.apache.commons.digester_3.2.0.jar
+Bundle-Vendor: Apache Foundation (packaged by OpenMethods)
+Export-Package: org.apache.commons.digester3,
+ org.apache.commons.digester3.annotations,
+ org.apache.commons.digester3.annotations.handlers,
+ org.apache.commons.digester3.annotations.reflect,
+ org.apache.commons.digester3.annotations.rules,
+ org.apache.commons.digester3.annotations.utils,
+ org.apache.commons.digester3.binder,
+ org.apache.commons.digester3.plugins,
+ org.apache.commons.digester3.plugins.strategies,
+ org.apache.commons.digester3.substitution,
+ org.apache.commons.digester3.xmlrules
+Require-Bundle: org.apache.commons.logging,
+ org.apache.commons.beanutils,
+ javax.xml
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

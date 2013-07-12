@@ -21,4 +21,5 @@ Export-Package: org.apache.commons.digester,
  org.apache.commons.digester.xmlrules
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Require-Bundle: org.apache.commons.logging,
- org.apache.commons.beanutils
+ org.apache.commons.beanutils,
+ javax.xml
