@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons SCXML
+Bundle-SymbolicName: org.apache.commons.scxml
+Bundle-Version: 0.9.0
+Export-Package: org.apache.commons.scxml,
+ org.apache.commons.scxml.env,
+ org.apache.commons.scxml.env.faces,
+ org.apache.commons.scxml.env.jexl,
+ org.apache.commons.scxml.env.jsp,
+ org.apache.commons.scxml.env.servlet,
+ org.apache.commons.scxml.invoke,
+ org.apache.commons.scxml.io,
+ org.apache.commons.scxml.model,
+ org.apache.commons.scxml.semantics,
+ org.apache.commons.scxml.test
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.apache.commons.beanutils;bundle-version="1.8.0",
+ org.apache.commons.jexl;bundle-version="1.1.0",
+ org.apache.commons.logging;bundle-version="1.1.1",
+ org.apache.xalan;bundle-version="2.7.0"
+Bundle-Vendor: Apache Foundation (packaged by OpenMethods)
