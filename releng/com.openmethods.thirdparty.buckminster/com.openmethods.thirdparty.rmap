@@ -62,9 +62,31 @@
   		<rm:property key="git.auto.fetch" value="true"/>
   	</rm:provider>
   </rm:searchPath>
+  <rm:searchPath name="Elements-com.sun">
+  	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="git" resolutionFilter="">
+  		<rm:uri format="{0}/elements,com.sun/plugins/{1}_{2}">
+  			<bc:propertyRef key="workspace.root"/>
+  			<bc:propertyRef key="buckminster.component"/>
+  			<bc:format format="{1}">
+  				<bc:split pattern=":">
+  					<bc:replace pattern="\[" replacement=":">
+	  					<bc:replace pattern="\]" replacement=":">
+		  					<bc:replace pattern="," replacement=":">
+				  				<bc:propertyRef key="buckminster.version.designator"/>
+			  				</bc:replace>
+		  				</bc:replace>
+	  				</bc:replace>
+	  			</bc:split>
+  			</bc:format>
+  		</rm:uri>
+  		<rm:property key="git.remote.uri" value="https://github.com/OpenMethods/Elements.git"/>
+  		<rm:property key="git.auto.fetch" value="true"/>
+  	</rm:provider>
+  </rm:searchPath>
   <rm:locator searchPathRef="orbit-R20130517111416" failOnError="false"/>
 <!-- <rm:locator searchPathRef="legacy-thirdparty" failOnError="false"/> -->
   <rm:locator searchPathRef="Elements-Releng" failOnError="false"/>
   <rm:locator searchPathRef="Elements-org.slf4j" failOnError="false"/>
   <rm:locator searchPathRef="Elements-javax" failOnError="false"/>
+  <rm:locator searchPathRef="Elements-com.sun" failOnError="false"/>
 </rm:rmap>
