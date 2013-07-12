@@ -26,12 +26,12 @@
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   			<bc:format format="{0}">
-  				<bc:split pattern=" ">
+  				<bc:split pattern=":">
   					<bc:replace>
 		  				<bc:propertyRef key="buckminster.version.designator"/>
-		  				<bc:match pattern="\[" replacement=" "/>
-		  				<bc:match pattern="\]" replacement=" "/>
-		  				<bc:match pattern="," replacement=" "/>
+		  				<bc:match pattern="\[" replacement=":"/>
+		  				<bc:match pattern="\]" replacement=":"/>
+		  				<bc:match pattern="," replacement=":"/>
 	  				</bc:replace>
 	  			</bc:split>
   			</bc:format>
@@ -46,12 +46,12 @@
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
   			<bc:format format="{0}">
-  				<bc:split pattern=" ">
+  				<bc:split pattern=":">
   					<bc:replace>
 		  				<bc:propertyRef key="buckminster.version.designator"/>
-		  				<bc:match pattern="\[" replacement=" "/>
-		  				<bc:match pattern="\]" replacement=" "/>
-		  				<bc:match pattern="," replacement=" "/>
+		  				<bc:match pattern="\[" replacement=":"/>
+		  				<bc:match pattern="\]" replacement=":"/>
+		  				<bc:match pattern="," replacement=":"/>
 	  				</bc:replace>
 	  			</bc:split>
   			</bc:format>
