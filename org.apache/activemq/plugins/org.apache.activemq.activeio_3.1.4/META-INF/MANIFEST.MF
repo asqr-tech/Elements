@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache ActiveMQ ActiveIO
+Bundle-SymbolicName: org.apache.activemq.activeio
+Bundle-Version: 3.1.4
+Bundle-ClassPath: org.apache.activemq.activeio-core_3.1.4.jar
+Bundle-Vendor: Apache Foundation (packaged by OpenMethods)
+Export-Package: org.apache.activeio.adapter,
+ org.apache.activeio.journal,
+ org.apache.activeio.journal.active,
+ org.apache.activeio.journal.howl,
+ org.apache.activeio.oneport,
+ org.apache.activeio.packet,
+ org.apache.activeio.xnet,
+ org.apache.activeio.xnet.hba
+Require-Bundle: org.apache.commons.logging
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
