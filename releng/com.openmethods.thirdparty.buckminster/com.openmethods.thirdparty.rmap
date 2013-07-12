@@ -25,7 +25,7 @@
   		<rm:uri format="{0}/elements,org.slf4j/{1}_{2}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
-  			<bc:format format="{0}">
+  			<bc:format format="{1}">
   				<bc:split pattern=":">
   					<bc:replace>
 		  				<bc:propertyRef key="buckminster.version.designator"/>
@@ -45,7 +45,7 @@
   		<rm:uri format="{0}/elements,javax/plugins/{1}_{2}">
   			<bc:propertyRef key="workspace.root"/>
   			<bc:propertyRef key="buckminster.component"/>
-  			<bc:format format="{0}">
+  			<bc:format format="{1}">
   				<bc:split pattern=":">
   					<bc:replace>
 		  				<bc:propertyRef key="buckminster.version.designator"/>
