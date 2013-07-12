@@ -46,10 +46,6 @@
          version="0.0.0"/>
 
    <includes
-         id="org.apache.commons.net.feature.all"
-         version="0.0.0"/>
-
-   <includes
          id="org.apache.activemq.activeio.core.feature.all"
          version="0.0.0"/>
 
