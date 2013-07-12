@@ -15,7 +15,7 @@ Export-Package: org.apache.commons.configuration,
  org.apache.commons.configuration.tree,
  org.apache.commons.configuration.tree.xpath,
  org.apache.commons.configuration.web
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: org.apache.commons.lang,
  org.apache.commons.collections,
  org.apache.commons.logging,

@@ -10,7 +10,7 @@ Export-Package: org.apache.commons.beanutils,
  org.apache.commons.beanutils.expression,
  org.apache.commons.beanutils.locale,
  org.apache.commons.beanutils.locale.converters
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: org.apache.commons.logging,
  org.apache.commons.collections
  

@@ -13,4 +13,4 @@ Export-Package: org.apache.commons.jexl2,
  org.apache.commons.jexl2.scripting
 Require-Bundle: org.apache.commons.logging,
  org.eclipse.birt.chart.engine;resolution:=optional
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

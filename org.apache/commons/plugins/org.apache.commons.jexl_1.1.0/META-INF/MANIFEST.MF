@@ -14,4 +14,4 @@ Export-Package: org.apache.commons.jexl,
  org.apache.commons.jexl.util.introspection
 Require-Bundle: org.apache.commons.logging,
  org.junit;resolution:=optional
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

@@ -14,4 +14,4 @@ Export-Package: org.apache.activeio.adapter,
  org.apache.activeio.xnet,
  org.apache.activeio.xnet.hba
 Require-Bundle: org.apache.commons.logging
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
