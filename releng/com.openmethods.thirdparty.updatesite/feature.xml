@@ -57,8 +57,4 @@
          id="javax.jmdns.feature.3.4.1"
          version="0.0.0"/>
 
-   <includes
-         id="org.glassfish.javax.faces.feature.all"
-         version="0.0.0"/>
-
 </feature>
