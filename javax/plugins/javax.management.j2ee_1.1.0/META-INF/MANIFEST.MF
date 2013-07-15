@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Geronimo J2EE Management Spec
+Bundle-SymbolicName: javax.management.j2ee
+Bundle-Version: 1.1.0
+Bundle-ClassPath: geronimo-j2ee-management_1.1_spec-1.0.1.jar
+Bundle-Vendor: Apache Foundation (packaged by OpenMethods)
+Export-Package: javax.management.j2ee;version="1.1.0",
+ javax.management.j2ee.statistics;version="1.1.0"
+Require-Bundle: org.eclipse.birt.chart.engine;resolution:=optional
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
