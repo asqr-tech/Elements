@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: JmDNS
 Bundle-SymbolicName: javax.jmdns
 Bundle-Version: 3.4.1
-Bundle-ClassPath: jmdns-3.4.1
+Bundle-ClassPath: .
 Bundle-Vendor: jmdns.sourceforge.net
 Export-Package: javax.jmdns;version="3.4.1"
 Specification-Vendor: JmDNS
