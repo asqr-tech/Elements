@@ -18,15 +18,15 @@
    </license>
 
    <includes
-         id="org.apache.activemq.core.feature.5.8.0"
-         version="0.0.0"/>
-
-   <includes
          id="org.apache.activemq.activeio.core.feature.all"
          version="0.0.0"/>
 
    <includes
          id="org.apache.activemq.protobuf.feature.1.1.0"
+         version="0.0.0"/>
+
+   <includes
+         id="com.apache.activemq.core.feature.5.8.0"
          version="0.0.0"/>
 
 </feature>

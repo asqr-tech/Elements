@@ -5,8 +5,7 @@ Bundle-SymbolicName: org.apache.activemq.core
 Bundle-Version: 5.8.0
 Bundle-Vendor: Apache (OpenMethods OSGi bundling)
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Import-Package: javax.jmdns;version="3.4.1",
- javax.jms;version="1.1.0",
+Import-Package: javax.jms;version="1.1.0",
  javax.management.j2ee,
  javax.management.j2ee.statistics,
  org.apache.activeio.adapter;version="3.1.4",
@@ -95,4 +94,6 @@ Export-Package: org.apache.activemq,
  org.apache.activemq.util.osgi,
  org.apache.activemq.wireformat
 Bundle-ClassPath: .
-Require-Bundle: org.apache.xalan;bundle-version="2.7.0"
+Require-Bundle: org.apache.xalan;bundle-version="2.7.0",
+ javax.jmdns;bundle-version="3.4.1"
+
