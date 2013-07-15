@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="com.apache.activemq.core.feature.5.8.0"
+      id="org.apache.activemq.core.feature.5.8.0"
       label="Apache ActiveMQ Core"
       version="5.8.0"
       provider-name="Apache Foundation (packaged by OpenMethods)">
