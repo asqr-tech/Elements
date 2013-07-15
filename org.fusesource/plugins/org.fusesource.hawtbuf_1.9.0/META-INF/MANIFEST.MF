@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Fuse Source Hawtbuf
+Bundle-SymbolicName: org.fusesource.hawtbuf
+Bundle-Version: 1.9.0
+Bundle-ClassPath: hawtbuf-1.9.jar
+Bundle-Vendor: FuseSource (packaged by OpenMethods)
+Export-Package: org.fusesource.hawtbuf,
+ org.fusesource.hawtbuf.codec
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

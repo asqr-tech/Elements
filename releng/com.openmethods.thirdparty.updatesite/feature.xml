@@ -61,4 +61,8 @@
          id="org.apache.activemq.feature.all"
          version="0.0.0"/>
 
+   <includes
+         id="org.fusesource.hawtbuf.feature.1.9.0"
+         version="0.0.0"/>
+
 </feature>
