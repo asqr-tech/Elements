@@ -46,10 +46,6 @@
          version="0.0.0"/>
 
    <includes
-         id="org.apache.activemq.activeio.core.feature.all"
-         version="0.0.0"/>
-
-   <includes
          id="org.slf4j.api.feature.1.6.6"
          version="0.0.0"/>
 
