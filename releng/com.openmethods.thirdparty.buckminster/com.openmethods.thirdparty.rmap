@@ -10,6 +10,11 @@
       <rm:uri format="http://localhost:8081/repositories/legacy-thirdparty"/>
     </rm:provider>
   </rm:searchPath> -->
+  <rm:searchPath name="juno">
+    <rm:provider readerType="p2" componentTypes="osgi.bundle" mutable="false" source="false">
+      <rm:uri format="http://download.eclipse.org/releases/juno/"/>
+    </rm:provider>
+  </rm:searchPath>
   <rm:searchPath name="Elements-Releng">
   	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="git" resolutionFilter="">
   		<rm:uri format="{0}/elements,releng/{1}">
@@ -155,4 +160,5 @@
   <rm:locator searchPathRef="Elements-org.apache-commons" failOnError="false"/>
   <rm:locator searchPathRef="Elements-org.apache-activemq" failOnError="false"/>
   <rm:locator searchPathRef="Elements-org.fusesource" failOnError="false"/>
+  <rm:locator searchPathRef="juno" failOnError="false"/>
 </rm:rmap>
