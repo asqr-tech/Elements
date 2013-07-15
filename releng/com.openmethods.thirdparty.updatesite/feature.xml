@@ -61,4 +61,8 @@
          id="org.apache.commons.beanutils.feature.1.8.3"
          version="0.0.0"/>
 
+   <includes
+         id="org.apache.activemq.feature.all"
+         version="0.0.0"/>
+
 </feature>

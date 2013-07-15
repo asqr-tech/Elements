@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Protobuf
+Bundle-SymbolicName: org.apache.activemq.protobuf
+Bundle-Version: 1.1.0
+Export-Package: org.apache.activemq.protobuf,
+ org.apache.activemq.protobuf.compiler,
+ org.apache.activemq.protobuf.compiler.parser
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

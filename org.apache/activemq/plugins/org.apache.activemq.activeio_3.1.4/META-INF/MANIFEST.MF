@@ -5,13 +5,13 @@ Bundle-SymbolicName: org.apache.activemq.activeio
 Bundle-Version: 3.1.4
 Bundle-ClassPath: org.apache.activemq.activeio-core_3.1.4.jar
 Bundle-Vendor: Apache Foundation (packaged by OpenMethods)
-Export-Package: org.apache.activeio.adapter,
- org.apache.activeio.journal,
- org.apache.activeio.journal.active,
- org.apache.activeio.journal.howl,
- org.apache.activeio.oneport,
- org.apache.activeio.packet,
- org.apache.activeio.xnet,
- org.apache.activeio.xnet.hba
+Export-Package: org.apache.activeio.adapter;version="3.1.4",
+ org.apache.activeio.journal;version="3.1.4",
+ org.apache.activeio.journal.active;version="3.1.4",
+ org.apache.activeio.journal.howl;version="3.1.4",
+ org.apache.activeio.oneport;version="3.1.4",
+ org.apache.activeio.packet;version="3.1.4",
+ org.apache.activeio.xnet;version="3.1.4",
+ org.apache.activeio.xnet.hba;version="3.1.4"
 Require-Bundle: org.apache.commons.logging
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6

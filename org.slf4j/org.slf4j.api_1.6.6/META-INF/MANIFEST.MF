@@ -5,7 +5,7 @@ Bundle-SymbolicName: org.slf4j.api
 Bundle-Version: 1.6.6
 Bundle-Vendor: OpenMethods
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Export-Package: org.slf4j,
- org.slf4j.helpers,
- org.slf4j.impl,
- org.slf4j.spi
+Export-Package: org.slf4j;version="1.6.6",
+ org.slf4j.helpers;version="1.6.6",
+ org.slf4j.impl;version="1.6.6",
+ org.slf4j.spi;version="1.6.6"
