@@ -7,6 +7,7 @@
 	<dependencies> 
         <dependency name="javax.jms" componentType="osgi.bundle" versionDesignator="[1.1.0,1.2.0)"/>
         <dependency name="org.apache.commons.net" componentType="osgi.bundle" versionDesignator="[3.2.0,3.3.0)"/>
+        <dependency name="org.apache.derby" componentType="osgi.bundle" versionDesignator="[10.8.2,)"/>
 	</dependencies>
 	<generators>
 		<!-- Place your Generators here -->
