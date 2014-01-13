@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jackson Annotations
+Bundle-SymbolicName: com.fasterxml.jackson.annotations
+Bundle-Version: 2.3.0
+Bundle-Vendor: FasterXML (packaged by OpenMethods)
+Export-Package: com.fasterxml.jackson.annotation;version="2.3.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: com.fasterxml.jackson.core;bundle-version="2.3.0"
