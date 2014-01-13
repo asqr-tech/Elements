@@ -130,6 +130,27 @@
   		<rm:property key="git.auto.fetch" value="true"/>
   	</rm:provider>
   </rm:searchPath>
+  <rm:searchPath name="Elements-com-fasterxml-jackson">
+  	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="git" resolutionFilter="">
+  		<rm:uri format="{0}/elements,com.fasterxml/jackson/plugins/{1}_{2}">
+  			<bc:propertyRef key="workspace.root"/>
+  			<bc:propertyRef key="buckminster.component"/>
+  			<bc:format format="{1}">
+  				<bc:split pattern=":">
+  					<bc:replace pattern="\[" replacement=":">
+	  					<bc:replace pattern="\]" replacement=":">
+		  					<bc:replace pattern="," replacement=":">
+				  				<bc:propertyRef key="buckminster.version.designator"/>
+			  				</bc:replace>
+		  				</bc:replace>
+	  				</bc:replace>
+	  			</bc:split>
+  			</bc:format>
+  		</rm:uri>
+  		<rm:property key="git.remote.uri" value="https://github.com/OpenMethods/Elements.git"/>
+  		<rm:property key="git.auto.fetch" value="true"/>
+  	</rm:provider>
+  </rm:searchPath>
   <rm:searchPath name="Elements-org.fusesource">
   	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="git" resolutionFilter="">
   		<rm:uri format="{0}/elements,org.fusesource/plugins/{1}_{2}">
@@ -160,5 +181,6 @@
   <rm:locator searchPathRef="Elements-org.apache-commons" failOnError="false"/>
   <rm:locator searchPathRef="Elements-org.apache-activemq" failOnError="false"/>
   <rm:locator searchPathRef="Elements-org.fusesource" failOnError="false"/>
+  <rm:locator searchPathRef="Elements-com-fasterxml-jackson" failOnError="false" />
   <rm:locator searchPathRef="juno" failOnError="false"/>
 </rm:rmap>
