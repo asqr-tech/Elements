@@ -73,4 +73,8 @@
          id="com.sun.jna.feature.3.5.1"
          version="0.0.0"/>
 
+   <includes
+         id="com.fasterxml.jackson.feature.2.3.1"
+         version="0.0.0"/>
+
 </feature>
