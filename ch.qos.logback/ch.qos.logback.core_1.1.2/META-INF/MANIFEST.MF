@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Logback Core
+Bundle-SymbolicName: ch.qos.logback.core
+Bundle-Version: 1.1.2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: javax.mail;resolution=optional,
+ javax.mail.internet;resolution:=optional,javax.naming;resolution:=opt
+ ional,javax.servlet;resolution:=optional,javax.servlet.http;resolutio
+ n:=optional,javax.sql;resolution:=optional,javax.xml.parsers;resoluti
+ on:=optional,org.codehaus.commons.compiler;resolution:=optional,org.c
+ odehaus.janino;resolution:=optional,org.fusesource.jansi;resolution:=
+ optional;version="1.8",org.xml.sax;resolution:=optional,org.xml.sax.h
+ elpers;resolution:=optional
