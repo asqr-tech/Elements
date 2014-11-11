@@ -46,7 +46,7 @@
          version="0.0.0"/>
 
    <includes
-         id="org.slf4j.api.feature.1.6.6"
+         id="org.slf4j.api.feature.all"
          version="0.0.0"/>
 
    <includes
@@ -79,6 +79,10 @@
 
    <includes
          id="org.mozilla.javascript.feature.1.7.4"
+         version="0.0.0"/>
+
+   <includes
+         id="ch.qos.logback.feature.1.1.2"
          version="0.0.0"/>
 
 </feature>
