@@ -109,6 +109,27 @@
   		<rm:property key="git.auto.fetch" value="true"/>
   	</rm:provider>
   </rm:searchPath>
+  <rm:searchPath name="Elements-org.codehaus">
+  	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="git" resolutionFilter="">
+  		<rm:uri format="{0}/elements,org.codehaus/plugins/{1}_{2}">
+  			<bc:propertyRef key="workspace.root"/>
+  			<bc:propertyRef key="buckminster.component"/>
+  			<bc:format format="{1}">
+  				<bc:split pattern=":">
+  					<bc:replace pattern="\[" replacement=":">
+	  					<bc:replace pattern="\]" replacement=":">
+		  					<bc:replace pattern="," replacement=":">
+				  				<bc:propertyRef key="buckminster.version.designator"/>
+			  				</bc:replace>
+		  				</bc:replace>
+	  				</bc:replace>
+	  			</bc:split>
+  			</bc:format>
+  		</rm:uri>
+  		<rm:property key="git.remote.uri" value="https://github.com/OpenMethods/Elements.git"/>
+  		<rm:property key="git.auto.fetch" value="true"/>
+  	</rm:provider>
+  </rm:searchPath>
   <rm:searchPath name="Elements-org.apache-commons">
   	<rm:provider componentTypes="buckminster,eclipse.feature,osgi.bundle" readerType="git" resolutionFilter="">
   		<rm:uri format="{0}/elements,org.apache/commons/plugins/{1}_{2}">
@@ -216,6 +237,7 @@
   </rm:searchPath>
 <!-- <rm:locator searchPathRef="legacy-thirdparty" failOnError="false"/> -->
   <rm:locator searchPathRef="Elements-Releng" failOnError="false"/>
+  <rm:locator searchPathRef="Elements-org.codehaus" failOnError="false"/>
   <rm:locator searchPathRef="Elements-ch.qos.logback" failOnError="false"/>
   <rm:locator searchPathRef="Elements-org.slf4j" failOnError="false"/>
   <rm:locator searchPathRef="Elements-org.mozilla" failOnError="false"/>
