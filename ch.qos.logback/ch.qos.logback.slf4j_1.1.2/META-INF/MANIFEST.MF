@@ -7,4 +7,7 @@ Fragment-Host: org.slf4j.api;bundle-version="1.7.7"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: ch.qos.logback.core;bundle-version="1.1.2",ch.
  qos.logback.classic;bundle-version="1.1.2"
-Export-Package: org.slf4j.impl;version="1.7.7"
+Export-Package: org.slf4j.impl;uses:="org.slf4j.spi,ch.qos.logback.cl
+ assic.util,org.slf4j.helpers,ch.qos.logback.classic,ch.qos.logback.co
+ re,ch.qos.logback.classic.selector,ch.qos.logback.core.joran.spi,org.
+ slf4j,ch.qos.logback.core.util";version="1.7.2"
