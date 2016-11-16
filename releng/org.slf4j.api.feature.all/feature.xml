@@ -24,4 +24,8 @@
          id="org.slf4j.api.feature.1.7.7"
          version="0.0.0"/>
 
+   <includes
+         id="org.slf4j.api.feature.1.7.21"
+         version="0.0.0"/>
+
 </feature>
