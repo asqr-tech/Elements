@@ -82,11 +82,11 @@
          version="0.0.0"/>
 
    <includes
-         id="ch.qos.logback.feature.1.1.2"
+         id="org.codehaus.janino.feature.2.7.6"
          version="0.0.0"/>
 
    <includes
-         id="org.codehaus.janino.feature.2.7.6"
+         id="ch.qos.logback.feature.all"
          version="0.0.0"/>
 
 </feature>
