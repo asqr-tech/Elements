@@ -2,7 +2,7 @@
 <rm:rmap xmlns:bc="http://www.eclipse.org/buckminster/Common-1.0" xmlns:rm="http://www.eclipse.org/buckminster/RMap-1.0">
   <rm:searchPath name="orbit-R20130517111416">
     <rm:provider readerType="p2" componentTypes="osgi.bundle" mutable="false" source="false">
-      <rm:uri format="http://localhost/downloads/Orbit/R20130517111416/"/>
+      <rm:uri format="http://kcombuild01.openmethods.com/downloads/Orbit/R20130517111416/"/>
     </rm:provider>
   </rm:searchPath>
 <!-- <rm:searchPath name="legacy-thirdparty">
@@ -12,7 +12,7 @@
   </rm:searchPath> -->
   <rm:searchPath name="juno">
     <rm:provider readerType="p2" componentTypes="osgi.bundle" mutable="false" source="false">
-      <rm:uri format="http://localhost/downloads/Juno/"/>
+      <rm:uri format="http://kcombuild01.openmethods.com/downloads/Juno/"/>
     </rm:provider>
   </rm:searchPath>
   <rm:searchPath name="Elements-Releng">
