@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="ch.qos.logback.feature"
+      id="ch.qos.logback.feature.1.1.10"
       label="Logback 1.1.10"
       version="1.1.10">
 
