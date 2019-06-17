@@ -1,0 +1,23 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: xFu84LYRlFJz5gUVsdUUFXiuQow=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: 059HJm0D4B3rZsniVvYKIi8pkaU=
+
+Name: fragment.properties
+SHA1-Digest: 06pBPCA3Ip1Gn+YKMsG9j6JHhnY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: org/slf4j/impl/StaticMarkerBinder.class
+SHA1-Digest: nqPLTZZnz3ERQ1ycxjDZkv9Fkr8=
+
+Name: org/slf4j/impl/StaticMDCBinder.class
+SHA1-Digest: KRGEONH3Dhg4mFDsV/76vGCseQU=
+
+Name: org/slf4j/impl/StaticLoggerBinder.class
+SHA1-Digest: g5ZD5ONJ1aFJCPUr+THGxw0PANA=
+
+Name: about.html
+SHA1-Digest: 0jyYz8gnI8EGT/BBL0FUG28YNvU=
+

@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>com.vht.elements.org.apache.activemq</artifactId>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>com.vht.elements</groupId>
+		<artifactId>com.vht.elements.root</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<modules>
+		<module>features/org.apache.activemq.feature</module>
+		<module>plugins/org.apache.activemq.activeio</module>
+		<module>plugins/org.apache.activemq.core</module>
+		<module>plugins/org.apache.activemq.protobuf</module>
+	</modules>
+</project>

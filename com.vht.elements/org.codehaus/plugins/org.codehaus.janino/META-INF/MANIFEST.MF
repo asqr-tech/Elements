@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: codehaus Janino
+Bundle-SymbolicName: org.codehaus.janino
+Bundle-Version: 3.0.12
+Bundle-ClassPath: .
+Bundle-Vendor: Janino
+Require-Bundle: org.apache.ant,
+  org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: org.codehaus.janino

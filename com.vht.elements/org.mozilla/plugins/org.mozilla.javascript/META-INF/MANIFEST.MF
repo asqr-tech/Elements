@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Javascript
+Bundle-SymbolicName: org.mozilla.javascript
+Bundle-Version: 1.7.2
+Bundle-ClassPath: .
+Bundle-Vendor: Mozilla
+Require-Bundle: javax.xml,
+  org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: org.mozilla.javascript

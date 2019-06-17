@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Slf4j Api
+Bundle-SymbolicName: org.slf4j.api
+Bundle-Version: 1.7.26
+Bundle-Vendor: MIT
+Automatic-Module-Name: org.slf4j.api
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
