@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Commons Compiler
+Bundle-SymbolicName: org.codehaus.commons.compiler
+Bundle-Version: 3.0.12
+Bundle-Vendor: Janino
+Automatic-Module-Name: org.codehaus.commons.compiler
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

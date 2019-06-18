@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/ch.qos.logback.feature_5.1.0.qualifier.jar" id="ch.qos.logback.feature" version="5.1.0.qualifier">
+      <category name="elements"/>
+   </feature>
+   <feature url="features/com.fasterxml.feature_5.1.0.qualifier.jar" id="com.fasterxml.feature" version="5.1.0.qualifier">
+      <category name="elements"/>
+   </feature>
+   <feature url="features/com.sun.feature_5.1.0.qualifier.jar" id="com.sun.feature" version="5.1.0.qualifier">
+      <category name="elements"/>
+   </feature>
+   <feature url="features/javax.feature_5.1.0.qualifier.jar" id="javax.feature" version="5.1.0.qualifier">
+      <category name="elements"/>
+   </feature>
+   <feature url="features/org.apache.activemq.feature_5.1.0.qualifier.jar" id="org.apache.activemq.feature" version="5.1.0.qualifier">
+      <category name="elements"/>
+   </feature>
+   <feature url="features/org.apache.commons.feature_5.1.0.qualifier.jar" id="org.apache.commons.feature" version="5.1.0.qualifier">
+      <category name="elements"/>
+   </feature>
+   <feature url="features/org.apache.httpcomponents.feature_5.1.0.qualifier.jar" id="org.apache.httpcomponents.feature" version="5.1.0.qualifier">
+      <category name="elements"/>
+   </feature>
+   <feature url="features/org.apache.james.feature_5.1.0.qualifier.jar" id="org.apache.james.feature" version="5.1.0.qualifier">
+      <category name="elements"/>
+   </feature>
+   <feature url="features/org.codehaus.feature_5.1.0.qualifier.jar" id="org.codehaus.feature" version="5.1.0.qualifier">
+      <category name="elements"/>
+   </feature>
+   <feature url="features/org.fusesource.feature_5.1.0.qualifier.jar" id="org.fusesource.feature" version="5.1.0.qualifier">
+      <category name="elements"/>
+   </feature>
+   <feature url="features/org.mozilla.feature_5.1.0.qualifier.jar" id="org.mozilla.feature" version="5.1.0.qualifier">
+      <category name="elements"/>
+   </feature>
+   <feature url="features/org.slf4j.feature_5.1.0.qualifier.jar" id="org.slf4j.feature" version="5.1.0.qualifier">
+      <category name="elements"/>
+   </feature>
+   <category-def name="elements" label="BuildVHT Elements"/>
+</site>

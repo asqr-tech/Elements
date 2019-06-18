@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Management J2ee
+Bundle-SymbolicName: javax.management.j2ee
+Bundle-Version: 1.1.2
+Bundle-Vendor: Sun.com
+Automatic-Module-Name: javax.management.j2ee
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

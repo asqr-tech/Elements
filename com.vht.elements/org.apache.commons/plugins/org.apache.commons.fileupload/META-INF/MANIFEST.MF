@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Commons Fileupload
+Bundle-SymbolicName: org.apache.commons.fileupload
+Bundle-Version: 1.4.0
+Bundle-Vendor: Apache.org
+Automatic-Module-Name: org.apache.commons.fileupload
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
