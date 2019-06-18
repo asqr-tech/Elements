@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Activemq Protobuf
-Bundle-SymbolicName: org.apache.activemq.protobuf
-Bundle-Version: 1.1.0
-Bundle-Vendor: Apache.org
-Automatic-Module-Name: org.apache.activemq.protobuf
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8

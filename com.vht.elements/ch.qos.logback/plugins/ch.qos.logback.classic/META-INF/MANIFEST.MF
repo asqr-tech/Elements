@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Logback Classic
-Bundle-SymbolicName: ch.qos.logback.classic
-Bundle-Version: 1.2.3
-Bundle-Vendor: Logback QOS
-Automatic-Module-Name: ch.qos.logback.classic
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8

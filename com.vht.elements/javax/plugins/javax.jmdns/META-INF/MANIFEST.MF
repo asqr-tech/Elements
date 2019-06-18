@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Jmdns
-Bundle-SymbolicName: javax.jmdns
-Bundle-Version: 3.4.1
-Bundle-Vendor: Sun.com
-Automatic-Module-Name: javax.jmdns
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8

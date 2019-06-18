@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Fusesource Hawtbuf
-Bundle-SymbolicName: org.fusesource.hawtbuf
-Bundle-Version: 1.11.0
-Bundle-Vendor: Apache.org
-Automatic-Module-Name: org.fusesource.hawtbuf
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8

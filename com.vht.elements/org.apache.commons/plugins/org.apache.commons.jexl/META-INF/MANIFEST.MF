@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Commons Jexl
-Bundle-SymbolicName: org.apache.commons.jexl
-Bundle-Version: 2.1.1
-Bundle-Vendor: Apache.org
-Automatic-Module-Name: org.apache.commons.jexl
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8

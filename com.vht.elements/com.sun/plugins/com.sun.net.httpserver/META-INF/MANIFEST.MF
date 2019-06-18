@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Java Httpserver
-Bundle-SymbolicName: com.sun.net.httpserver
-Bundle-Version: 2.2.1
-Bundle-Vendor: Sun.com
-Automatic-Module-Name: com.sun.net.httpserver
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
