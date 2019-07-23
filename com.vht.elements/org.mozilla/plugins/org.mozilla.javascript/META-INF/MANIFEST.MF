@@ -9,3 +9,4 @@ Require-Bundle: javax.xml,
   org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: org.mozilla.javascript
+Export-Package: org.mozilla.javascript
