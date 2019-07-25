@@ -36,5 +36,5 @@
    <feature url="features/org.slf4j.feature_5.1.0.qualifier.jar" id="org.slf4j.feature" version="5.1.0.qualifier">
       <category name="elements"/>
    </feature>
-   <category-def name="elements" label="BuildVHT Elements"/>
+   <category-def name="elements" label="Elements"/>
 </site>

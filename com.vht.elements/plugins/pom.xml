@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.vht.elements</groupId>
+		<artifactId>com.vht.elements.root</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>com.vht.elements.plugins</artifactId>
+	<packaging>pom</packaging>
+	<name>plugins</name>
+
+	<modules>
+		<module>ch.qos.logback.classic</module>
+		<module>ch.qos.logback.core</module>
+		<module>ch.qos.logback.slf4j</module>
+		<module>com.fasterxml.jackson.annotations</module>
+		<module>com.fasterxml.jackson.core</module>
+		<module>com.fasterxml.jackson.databind</module>
+		<module>com.sun.jna</module>
+		<module>com.sun.net.httpserver</module>
+		<module>javax.jmdns</module>
+		<module>javax.management.j2ee</module>
+		<module>org.apache.activemq.activeio</module>
+		<module>org.apache.activemq.core</module>
+		<module>org.apache.activemq.protobuf</module>
+		<module>org.apache.commons.beanutils</module>
+		<module>org.apache.commons.collections</module>
+		<module>org.apache.commons.configurations</module>
+		<module>org.apache.commons.digester</module>
+		<module>org.apache.commons.fileupload</module>
+		<module>org.apache.commons.io</module>
+		<module>org.apache.commons.jexl</module>
+		<module>org.apache.commons.scxml</module>
+		<module>org.apache.derby</module>
+		<module>org.codehaus.commons.compiler</module>
+		<module>org.codehaus.janino</module>
+		<module>org.fusesource.hawtbuf</module>
+		<module>org.mozilla.javascript</module>
+		<module>org.slf4j.api</module>
+		<module>org.apache.httpcomponents.httpclient</module>
+		<module>org.apache.httpcomponents.httpcore</module>
+		<module>org.apache.httpcomponents.httpmime</module>
+		<module>org.apache.james.mime4j</module>
+	</modules>
+</project>
