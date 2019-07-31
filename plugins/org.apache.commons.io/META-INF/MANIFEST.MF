@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Commons Io
-Bundle-SymbolicName: org.apache.commons.io
-Bundle-Version: 2.6.0
-Bundle-Vendor: Apache.org
-Automatic-Module-Name: org.apache.commons.io
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8

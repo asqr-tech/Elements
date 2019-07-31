@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Jna
-Bundle-SymbolicName: com.sun.jna
-Bundle-Version: 5.3.1
-Bundle-Vendor: Sun.com
-Automatic-Module-Name: com.sun.jna
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Export-Package: com.sun.jna

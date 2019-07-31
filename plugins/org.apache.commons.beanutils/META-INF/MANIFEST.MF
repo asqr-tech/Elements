@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Commons Beanutils
-Bundle-SymbolicName: org.apache.commons.beanutils
-Bundle-Version: 1.9.3
-Bundle-Vendor: Apache.org
-Automatic-Module-Name: org.apache.commons.beanutils
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
