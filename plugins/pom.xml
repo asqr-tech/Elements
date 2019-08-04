@@ -35,6 +35,7 @@
 		<module>org.apache.commons.jexl_2.1.1</module>
 		<module>org.apache.commons.logging_1.2.0</module>
 		<module>org.apache.commons.scxml_0.9.0</module>
+		<module>org.apache.commons.fileupload_1.3.3</module>
 		<module>org.apache.lucene_7.1.0</module>
 		<module>org.codehaus.commons.compiler_2.7.6</module>
 		<module>org.codehaus.janino_2.7.6</module>
