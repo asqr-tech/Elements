@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.mozilla.javascript_1.7.4
+Bundle-SymbolicName: org.mozilla.javascript_1.7.4
+Bundle-Version: 1.7.4
+Bundle-ClassPath: .
+Bundle-Vendor: Mozilla
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: org.mozilla.javascript_1.7.4
+Bundle-ActivationPolicy: lazy

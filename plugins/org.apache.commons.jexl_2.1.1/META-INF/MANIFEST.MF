@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.apache.commons.jexl_2.1.1
+Bundle-SymbolicName: org.apache.commons.jexl_2.1.1
+Bundle-Version: 2.1.1
+Bundle-Vendor: Apache Commons
+Automatic-Module-Name: org.apache.commons.jexl_2.1.1
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

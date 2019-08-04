@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ch.qos.logback.core_1.1.2
+Bundle-SymbolicName: ch.qos.logback.core_1.1.2
+Bundle-Version: 1.1.2
+Bundle-Vendor: QOS Logback
+Automatic-Module-Name: ch.qos.logback.core_1.1.2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

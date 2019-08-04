@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ch.qos.logback.classic_1.1.2
+Bundle-SymbolicName: ch.qos.logback.classic_1.1.2
+Bundle-Version: 1.1.2
+Bundle-Vendor: QOS Lognack
+Automatic-Module-Name: ch.qos.logback.classic_1.1.2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

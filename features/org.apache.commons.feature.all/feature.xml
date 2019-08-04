@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.apache.commons.feature.all"
+      label="Apache Commons Feature"
+      version="1.0.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.apache.commons.digester_2.1.0"
+         download-size="0"
+         install-size="0"
+         version="2.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.scxml_0.9.0"
+         download-size="0"
+         install-size="0"
+         version="0.9.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.jexl_2.1.1"
+         download-size="0"
+         install-size="0"
+         version="2.1.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.digester_3.2.0"
+         download-size="0"
+         install-size="0"
+         version="3.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.jexl_1.1.0"
+         download-size="0"
+         install-size="0"
+         version="1.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.io_2.4.0"
+         download-size="0"
+         install-size="0"
+         version="2.4.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.beanutils_1.9.3"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.configuration_1.10.0"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging_1.2.0"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

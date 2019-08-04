@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.fasterxml.jackson.annotations_2.3.0
+Bundle-SymbolicName: com.fasterxml.jackson.annotations_2.3.0
+Bundle-Version: 2.3.0
+Bundle-Vendor: FasterXML Jackson
+Automatic-Module-Name: com.fasterxml.jackson.annotations_2.3.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

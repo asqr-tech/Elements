@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.sun.jna_3.5.1
+Bundle-SymbolicName: com.sun.jna_3.5.1
+Bundle-Version: 3.5.1
+Bundle-ClassPath: .
+Bundle-Vendor: Sun.com
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: com.sun.jna_3.5.1
+Bundle-ActivationPolicy: lazy

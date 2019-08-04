@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: javax.jmdns_3.4.1
+Bundle-SymbolicName: javax.jmdns_3.4.1
+Bundle-Version: 3.4.1
+Bundle-Vendor: JavaX
+Automatic-Module-Name: javax.jmdns_3.4.1
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

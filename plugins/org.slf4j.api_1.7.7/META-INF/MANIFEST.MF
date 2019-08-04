@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.slf4j.api_1.7.7
+Bundle-SymbolicName: org.slf4j.api_1.7.7
+Bundle-Version: 1.7.7
+Bundle-Vendor: Slf4J
+Automatic-Module-Name: org.slf4j.api_1.7.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
