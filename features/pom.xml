@@ -12,17 +12,16 @@
 	<name>features</name>
 
 	<modules>
-		<module>ch.qos.logback.feature</module>
-		<module>com.fasterxml.feature</module>
-		<module>com.sun.feature</module>
-		<module>javax.feature</module>
-		<module>org.apache.activemq.feature</module>
-		<module>org.apache.commons.feature</module>
-		<module>org.apache.httpcomponents.feature</module>
-		<module>org.apache.james.feature</module>
-		<module>org.codehaus.feature</module>
-		<module>org.fusesource.feature</module>
+		<module>ch.qos.logback.feature.all</module>
+		<module>com.fasterxml.jackson.feature.all</module>
+		<module>com.sun.feature.all</module>
+		<module>javax.feature.all</module>
+		<module>org.apache.activemq.feature.all</module>
+		<module>org.apache.commons.feature.all</module>
+		<module>org.apache.lucene.feature</module>
+		<module>org.codehaus.feature.all</module>
+		<module>org.fusesource.feature.all</module>
 		<module>org.mozilla.feature</module>
-		<module>org.slf4j.feature</module>
+		<module>org.slf4j.feature.all</module>
 	</modules>
 </project>
