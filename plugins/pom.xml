@@ -24,6 +24,7 @@
 		<module>javax.jmdns_3.4.1</module>
 		<module>javax.management.j2ee_1.1.0</module>
 		<module>javax.xml_2.3.1</module>
+		<module>javax.activation_1.1.1</module>
 		<module>org.apache.activemq.activeio_3.1.4</module>
 		<module>org.apache.activemq.core_5.8.0</module>
 		<module>org.apache.activemq.protobuf_1.1.0</module>

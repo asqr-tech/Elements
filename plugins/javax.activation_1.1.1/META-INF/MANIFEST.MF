@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: javax.activation_1.1.1
+Bundle-SymbolicName: javax.activation_1.1.1
+Bundle-Version: 1.1.1
+Automatic-Module-Name: javax.activation_1.1.1
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.sun.activation.registries,
+ com.sun.activation.viewers,
+ javax.activation
