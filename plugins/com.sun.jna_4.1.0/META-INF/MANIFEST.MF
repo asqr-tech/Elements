@@ -6,3 +6,13 @@ Bundle-Version: 4.1.0
 Bundle-Vendor: net.java.dev.jna
 Automatic-Module-Name: com.sun.jna_4.1.0
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.sun.jna,
+ com.sun.jna.darwin,
+ com.sun.jna.ptr,
+ com.sun.jna.win32,
+ target,
+ target.classes,
+ target.classes.com.sun.jna,
+ target.classes.com.sun.jna.darwin,
+ target.classes.com.sun.jna.ptr,
+ target.classes.com.sun.jna.win32
